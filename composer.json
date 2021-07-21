@@ -1,0 +1,21 @@
+{
+    "name": "abuddabi/converter",
+    "description": "description",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Abuddabi",
+            "email": "web.abudabi@gmail.com"
+        }
+    ],    
+    "autoload": {
+        "psr-4": {
+            "Converter\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "license": "MIT"
+}
